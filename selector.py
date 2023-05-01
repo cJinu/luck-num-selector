@@ -7,4 +7,7 @@ def _select():
     return A
 
 if __name__ == '__main__':
-    print(_select())
+    t = int(input('Enter num(1-100): '))
+    for _ in range(t):
+        print(_select())
+

@@ -6,4 +6,5 @@ def _select():
         A.add(random.randint(1,45))
     return A
 
-print(_select())
+if __name__ == '__main__':
+    print(_select())
